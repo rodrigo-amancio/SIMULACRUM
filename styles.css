@@ -1,0 +1,577 @@
+@font-face {
+    font-family:'SerifBabe';
+    src: url('fonts/Serifbabe\ Alpha\ Regular.ttf') format('truetype'),
+    url('fonts/Serifbabe-Alpha-Regular.otf') format('.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'NeueLight';
+    src: url('fonts/NeueHaasDisplay-Light.ttf') format('truetype'),
+    url('fonts/NeueHaasDisplay-Light.otf') format('.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Spectral';
+    src: url('fonts/Spectral-Regular.ttf') format('truetype'),
+    url('fonts/Spectral-Regular.otf') format('.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**/
+/**/
+/*SCROLL BAR*/
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(124, 124, 124); 
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(85, 85, 85); 
+}
+
+/**/
+/**/
+/*SELECTION COLOR*/
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: black;
+}
+  
+::selection {
+    color: white;
+    background: black;
+}
+
+/**/
+/**/
+/*REALITY SECTION (home)*/
+
+/*background*/
+body#index {
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+/*buttons*/
+.buttons {
+    width: 98%;
+    margin-top: 10px;
+    margin-left: 1%;
+
+    position: fixed;
+    font-family: 'SerifBabe';
+    font-size: 9pt;
+    z-index: 1;
+}
+
+.unreality-button {
+    float: left;
+    text-decoration: none;
+    color: black;
+    opacity: 90%;
+    text-shadow: 0 0 3px black;
+    transition: 0.3s;
+}
+
+.unreality-button:hover {
+    color: transparent;
+    text-shadow: 0 0 5px black;
+}
+
+.about {
+    float: right;
+    text-decoration: none;
+    color: black;
+    opacity: 90%;
+    text-shadow: 0 0 3px black;
+    transition: 0.3s;
+}
+
+.about:hover {
+    color: transparent;
+    text-shadow: 0 0 5px black;
+}
+
+.header {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+    position: fixed;
+    text-align: center;
+    z-index: 2;
+}
+
+.home-button-reality {
+    font-family: 'SerifBabe';
+    text-transform: uppercase;
+    font-size: 9pt;
+    text-decoration: none;
+    color: black;
+    opacity: 90%;
+    text-shadow: 0 0 3px black;
+  }
+
+.bottom-element {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+}
+
+.signature {
+    font-family: 'SerifBabe';
+    text-transform: uppercase;
+    font-size: 9pt;
+    text-decoration: none;
+    color: black;
+    opacity: 90%;
+    text-shadow: 0 0 3px black;
+  }
+
+
+/*content*/
+.content {
+    position: absolute;
+    margin-top: 6%;
+    text-align: center;
+}
+
+.reality-project-1 {
+    width: 60%;
+    line-height: 8pt;
+    padding-bottom: 30px;
+    animation-name: movement1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movement1 {
+    0% {margin-left: 13%;}
+    50% {margin-left: 27%;}
+    100% {margin-left: 13%;}
+}
+
+.reality-title {
+    font-family: 'SerifBabe';
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: transparent;
+    text-shadow: 0 0 7px black;
+    transition: 0.3s;
+}
+
+.reality-title:hover {
+    text-shadow: 0 0 15px black;
+}
+
+.reality-reference {
+    width: 60%;
+    margin-left: 20%;
+    line-height: 10pt;
+    padding-bottom: 30px;
+}
+
+.reality-subtitle {
+    font-family: 'NeueLight';
+    font-size: 10pt;
+    text-decoration: none;
+    color: transparent;
+    text-shadow: 0 0 2px black;
+    transition: 0.3s;
+}
+
+.reality-project-2 {
+    width: 60%;
+    line-height: 8pt;
+    padding-bottom: 30px;
+    margin-left: 20%;
+    animation-name: movement2;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movement2 {
+    0% {margin-left: 13%;}
+    50% {margin-left: 27%;}
+    100% {margin-left: 13%;}
+}
+
+#last-reference {
+    margin-bottom: 30px;
+}
+
+
+/**/
+/**/
+/*UNREALITY SECTION*/
+
+/*background*/
+body#unreality {
+    margin: 0;
+    background-color: black;
+}
+
+.reality-button {
+    float: left;
+    text-decoration: none;
+    color: white;
+    opacity: 80%;
+    text-shadow: 0 0 10px white;
+    transition: 0.3s;
+}
+
+.reality-button:hover {
+    color: transparent;
+    text-shadow: 0 0 5px white;
+}
+
+.about-unreality {
+    float: right;
+    text-decoration: none;
+    color: white;
+    opacity: 80%;
+    text-shadow: 0 0 10px white;
+    transition: 0.3s;
+}
+
+.about-unreality:hover {
+    color: transparent;
+    text-shadow: 0 0 5px white;
+}
+
+.home-button-unreality {
+    font-family: 'SerifBabe';
+    text-transform: uppercase;
+    font-size: 9pt;
+    text-decoration: none;
+    color: white;
+    opacity: 80%;
+    text-shadow: 0 0 5px white;
+  }
+
+.signature-unreality {
+    font-family: 'SerifBabe';
+    text-transform: uppercase;
+    font-size: 9pt;
+    text-decoration: none;
+    color: white;
+    opacity: 80%;
+    text-shadow: 0 0 5px white;
+  }
+
+/*content*/
+.unreality-project-1 {
+    width: 60%;
+    line-height: 8pt;
+    padding-bottom: 30px;
+    animation-name: movement3;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movement3 {
+    0% {margin-left: 27%;}
+    50% {margin-left: 13%;}
+    100% {margin-left: 27%;}
+}
+
+.unreality-title {
+    font-family: 'SerifBabe';
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: transparent;
+    text-shadow: 0 0 7px white;
+    transition: 0.3s;
+}
+
+.unreality-title:hover {
+    text-shadow: 0 0 15px white;
+}
+
+.unreality-subtitle {
+    font-family: 'NeueLight';
+    font-size: 10pt;
+    text-decoration: none;
+    color: transparent;
+    text-shadow: 0 0 2px white;
+    transition: 0.3s;
+}
+
+.unreality-project-2 {
+    width: 60%;
+    line-height: 8pt;
+    padding-bottom: 30px;
+    margin-left: 20%;
+    animation-name: movement4;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movement4 {
+    0% {margin-left: 27%;}
+    50% {margin-left: 13%;}
+    100% {margin-left: 27%;}
+}
+
+
+/**/
+/**/
+/*REALITY PROJECTS*/
+
+/*background*/
+body#project-reality {
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+.buttons-project {
+    width: 98%;
+    margin-top: 5px;
+    margin-left: 1%;
+
+    position: fixed;
+    font-family: 'Spectral';
+    font-size: 14pt;
+    z-index: 1;
+}
+
+.back {
+    float: right;
+    text-decoration: none;
+    color: black;
+    opacity: 90%;
+    text-shadow: 0 0 3px black;
+    transition: 0.3s;
+}
+
+.back:hover {
+    color: transparent;
+    text-shadow: 0 0 5px black;
+}
+
+.home-button-project {
+    font-family: 'SerifBabe';
+    text-transform: uppercase;
+    font-size: 9pt;
+    text-decoration: none;
+    color: black;
+    opacity: 90%;
+    text-shadow: 0 0 3px black;
+    transition: 0.3s;
+  }
+
+.home-button-project:hover {
+    color: transparent;
+    text-shadow: 0 0 5px black;
+  }
+
+/*content*/
+.content-project {
+    position: absolute;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.text {
+    width: 49%;
+    margin-left: 1%;
+    font-family: 'NeueLight';
+    font-size: 9pt;
+}
+
+.title {
+    font-family: 'SerifBabe';
+    text-transform: uppercase;
+}
+
+.superscript {
+    font-size: 6pt;
+}
+
+.two-images {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 9pt;
+}
+
+.img1 {
+    width: 49.5%;
+    margin-bottom: 3px;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    color: black;
+    opacity: 95%;
+    border-radius: 0px;
+    font-family: 'NeueLight';
+    font-size: 9pt;
+    text-shadow: 0 0 3px black;
+}
+
+.two-images:hover .tooltip-text {
+    visibility: visible;
+}
+
+.one-image {
+    width: 45%;
+    margin-left: 27.5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 9pt;
+}
+
+.img2 {
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.one-image:hover .tooltip-text {
+    visibility: visible;
+}
+
+#text-reference {
+    margin-left: 90%;
+    font-size: 8pt;
+}
+
+.link {
+    text-decoration: underline;
+    color: black;
+    transition: 0.3s;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: transparent;
+    text-shadow: 0 0 5px black;
+}
+
+.margin-bottom {
+    margin-bottom: 60px;
+    line-height: 12pt;
+}
+
+#first-p {
+    margin-top: 25px;
+}
+
+
+/**/
+/**/
+/*UNREALITY PROJECTS*/
+
+/*background*/
+body#project-unreality {
+    margin: 0;
+    background-color: black;
+}
+
+.back-unreality {
+    float: right;
+    text-decoration: none;
+    color: white;
+    opacity: 80%;
+    text-shadow: 0 0 5px white;
+    transition: 0.3s;
+}
+
+.back-unreality:hover {
+    color: transparent;
+}
+
+.home-button-project-unreality {
+    font-family: 'SerifBabe';
+    text-transform: uppercase;
+    font-size: 9pt;
+    text-decoration: none;
+    color: white;
+    opacity: 80%;
+    text-shadow: 0 0 5px white;
+    transition: 0.3s;
+  }
+
+.home-button-project-unreality:hover {
+    color: transparent;
+    text-shadow: 0 0 5px white;
+  }
+
+/*content*/
+.content-project-unreality {
+    position: absolute;
+    margin-top: 5%;
+    text-align: left;
+    color: white;
+}
+
+.tooltip-text-unreality {
+    visibility: hidden;
+    color: white;
+    opacity: 95%;
+    border-radius: 0px;
+    font-family: 'NeueLight';
+    font-size: 9pt;
+    text-shadow: 0 0 5px white;
+}
+
+.link-unreality {
+    text-decoration: underline;
+    color: white;
+    transition: 0.3s;
+}
+
+.link-unreality:hover {
+    text-decoration: none;
+    color: transparent;
+    text-shadow: 0 0 5px white;
+}
+
+.two-images:hover .tooltip-text-unreality {
+    visibility: visible;
+}
+
+.one-image:hover .tooltip-text-unreality {
+    visibility: visible;
+}
+
+
+
+/**/
+/**/
+/*ABOUT*/
+#margin-top-content-about {
+    margin-top: 40px;
+}
+
+.subtitle-about {
+    font-family: 'SerifBabe';
+    font-size: 9pt;
+    text-transform: uppercase;
+}
+
+#margin-bottom-about {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
