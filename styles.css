@@ -239,6 +239,18 @@ body#index {
 }
 
 
+/*loader*/
+.loader-reality {
+    background: black url(img/project-1/6.gif) no-repeat center;
+    background-size: 50%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+
 /**/
 /**/
 /*UNREALITY SECTION*/
@@ -359,6 +371,18 @@ body#unreality {
     0% {margin-left: 27%;}
     50% {margin-left: 13%;}
     100% {margin-left: 27%;}
+}
+
+
+/*loader*/
+.loader-unreality {
+    background: black url(img/project-1/6.gif) no-repeat center;
+    background-size: 50%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    transition: 0.5s;
 }
 
 
