@@ -449,6 +449,7 @@ body#project-reality {
     font-family: 'NeueLight';
     font-size: 11pt;
     line-height: 14pt;
+    min-width: 400px;
 }
 
 .title {
@@ -470,6 +471,7 @@ body#project-reality {
     margin-top: 30px;
     margin-bottom: 30px;
     line-height: 9.5pt;
+    min-width: 400px;
 }
 
 .img1 {
@@ -649,3 +651,22 @@ body#project-unreality {
     margin-top: 40px;
     margin-bottom: 60px;
 }
+
+
+
+/**/
+/**/
+/*MEDIA QUERIES*/
+@media screen and (max-width: 800px) {
+
+    .reality-title {
+        font-size: 32pt;
+        line-height: 32pt;
+    }
+
+    .unreality-title {
+        font-size: 32pt;
+        line-height: 32pt;
+    }
+
+  }
